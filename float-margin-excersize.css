@@ -1,0 +1,40 @@
+#parent-ID{
+    width: 700px;
+    background-color: gray;
+    margin : 0 auto;
+    /* float: left; */
+}
+.child-class{
+background-color: gray;
+margin: 30px;
+float: left;
+margin: 0;
+}
+
+.red{
+    width: 120px;
+    height: 80px;
+    background-color: red;   
+    margin: 30px;
+}
+.blue{
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    margin: 30px;
+}
+
+.yellow{
+    width: 120px;
+    height: 80px;
+    background-color: yellow;    
+    margin: 30px;
+}
+.GlobalStyle{
+    float: left;
+    
+}
+
+br{
+    clear: both;
+}
