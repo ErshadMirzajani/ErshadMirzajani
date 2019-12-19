@@ -1,0 +1,151 @@
+@font-face{
+    font-family: 'yekan';
+    src: url(../fonts/Yekan.ttf);
+
+}
+body{
+    direction: rtl;
+    font-family: yekan;
+    padding: 0;
+    margin:0;
+
+}
+.align_in_page{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.power_word{
+    color:#e8491d ;
+}
+button{
+    background-color: #e8491d;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+    color: white;
+    padding: 0px ;
+
+}
+/* header ----------------------------------------------------------------*/
+header{
+    border-bottom: 3px solid #e8491d;
+    background-color:  #35424a;
+    height: 70px;
+}
+ul{
+    margin: 0;
+    padding: 10px 0 0 0;
+    /* align-self: center; */
+}
+header>div>p{
+    padding: 0 0 20px 0;
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+ul>li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+ul>li a{
+    color: white;
+    text-decoration: none;
+}
+/* members------------------------------- */
+aside{
+    background-color:  #35424a;
+    margin: 0;
+    padding: 0;
+    /* height: 60px; */
+}
+aside>div>p{
+    float: right;
+    color: white;
+}
+aside>div>form{
+    float: left;
+}
+aside ::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+form{
+    padding: 0px;
+    margin: 10px 0 0 0;
+
+}
+aside form button{
+    margin: 0 5px 0 0;
+    float: left;
+}
+aside form input{
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 2px;
+    margin: 0px;
+    /* margin-bottom: 100px; */
+     padding: 0px;
+     /* float: right; */
+}
+/* main-------------------------------------------- */
+/* main>div{ */
+    .container3div{
+    float: right;
+
+    max-width: 60%;
+}
+.b3div{
+    height: 200px;
+    margin: 5px;
+    background-color: lightgray;
+
+
+}
+main>form{
+    float: left;
+    background-color: violet;
+    max-width: 40%;
+    /* min-height: 500px; */
+
+}
+main>form>input {
+    width: 350px;
+    height: 50px;
+}
+
+main::after{
+    content: ' ';
+    display: block;
+    clear: both;
+
+}
+
+ form>input[text] :nth-child(1)
+  {
+    height: 100px;
+    background-color: saddlebrown;
+}
+main form *{
+    display: block;
+    margin: 0 10px 0 30px;
+}
+main button{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+}
+/*footer................................................*/
+footer{
+    background-color: #e8491d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+    
+}

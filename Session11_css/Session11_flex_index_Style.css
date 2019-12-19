@@ -1,0 +1,139 @@
+/*General Attribue*/
+@font-face{
+    font-family: yekan;
+    src: url('./fonts/Yekan.ttf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: yekan;
+    direction: rtl !important;
+}
+.p_align{
+    padding-right: 100px;
+    color: white;
+    text-align: center;
+    padding:0px 100px 0px 0px;
+    margin: 0px;
+    direction: rtl;
+}
+/*First Header------------------------------------------------*/
+.headTop_class{
+    display: flex;
+    background-color: #35424a;
+
+    color: white;
+    border-bottom: 3px solid #e8491d;
+    padding: 20px;
+}
+/*menu*/
+ul.menu_class{
+    display: flex;
+    /* direction: ltr; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0px;
+
+
+}
+ul.menu_class li{
+    list-style-type: none;
+    margin: 10px;
+
+}    
+/* a attribute*/
+ul.menu_class a{
+    text-decoration: none;
+    color: white;
+}
+/* pharagraph */
+.headTop_class p{
+    font-size: 30px;
+    text-align: right;  
+    margin: 0px;
+}
+.span_atribute{
+    color: #e8491d ;
+    font-weight: 800;
+}
+/*body image --------------------------------------------------*/
+.body_image{
+    background-image: url(../images/showcase.jpg);
+    background-size: cover;  
+    height: 700px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.body_image p{
+   padding-top: 50px; 
+   font-weight: 800px;
+   font-size: 20px;
+}
+.body_image h1{
+    padding-top: 250px;
+}
+/* body_description-------------------------------------------------- */
+.body_description{
+    background-color: #35424a;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+
+}
+.body_description p{
+    text-align: right;
+    font-weight: 800px;
+    font-size: 25px;
+    justify-self: right;
+    /* display: inline; */
+}
+.body_description form{
+    border: 0px;
+    margin: 10px;
+    padding-right: 700px;    
+}
+.body_description button{
+    background-color: #e8491d;
+    border: 0px;
+    /* display: inline; */
+    width: 70px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    padding: 0px ;
+    /* margin: 30px; */
+}
+.body_description input{
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 3px;
+    margin: 0px;
+    /* margin-bottom: 100px; */
+     padding: 0px;
+}
+/*services-----------------------------------------------*/
+#services .container{
+    display: flex;
+    text-align: center;
+}
+#services img{
+    width: 80px;
+}
+#services p{
+    font-size: 14px;
+}
+/*footer................................................*/
+footer{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1em;
+    
+}
